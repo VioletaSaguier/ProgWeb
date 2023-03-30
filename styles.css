@@ -1,20 +1,10 @@
 
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 40%;
-    max-height: 250px;
-    max-width: 250px;
-  }
-  
+
   main{
     padding: 20px;
     height: 80px;
     width: auto;
   }
-
   header{
     padding: 20px;
   }
@@ -26,36 +16,12 @@
   margin-bottom: 20px;
   
   }
-  
   .imagen{
     height: 80px;
     width: auto;
     
   }
-  
-  .separador{
-    background-color: #a18262;
-  }
-  
-  .texto{
-    display: flex;
-    justify-content: center;
-    font-family: 'Lexend', sans-serif;
-  }
-  
-  
-  #sticky{
-    position: sticky;
-  }
-  
-  #whatsapp{
-    position:fixed;
-    bottom:2vw;
-    right:2vw;
-    max-width: 70px;
-    max-height: 70px;
-  }
-  
+
   @media only screen and (max-width: 600px){
     .mate{
       position:static
