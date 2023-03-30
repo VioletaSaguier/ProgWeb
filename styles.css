@@ -1,0 +1,94 @@
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 40%;
+    max-height: 250px;
+    max-width: 250px;
+  }
+  
+  main{
+    padding: 20px;
+    height: 80px;
+    width: auto;
+  }
+
+  header{
+    padding: 20px;
+  }
+  
+  h3{
+  color: #a18262;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  
+  }
+  
+  .imagen{
+    height: 80px;
+    width: auto;
+    
+  }
+  
+  .separador{
+    background-color: #a18262;
+  }
+  
+  .texto{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  
+  #sticky{
+    position: sticky;
+  }
+  
+  #whatsapp{
+    position:fixed;
+    bottom:2vw;
+    right:2vw;
+    max-width: 70px;
+    max-height: 70px;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .mate{
+      position:static
+  
+    }
+  }  
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+  }
+  
+  
+  .logo-container img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .estrifo-arg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    font-family: 'Lexend', sans-serif;
+    font-size: 36px; /* Ajusta el tamaño de fuente según tus necesidades */
+    text-align: center;
+  }
+  
+  
