@@ -18,7 +18,7 @@
     
   </head>
 <body>
-  <div id="navbar">
+  <div id="navbar" style="text-align: center;">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -31,18 +31,21 @@
         <div class="navbar-container">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#Mates">Mates</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Yerberas">Yerberas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Materas">Materas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Bombillas">Bombillas</a>
-              </li>
+              
+              
+              <div class="dropdown">
+                <button class="btn btn-terciary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nuestros productos
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#Mates">Mates</a>
+                  <a class="dropdown-item" href="#Yerberas">Yerberas</a>
+                  <a class="dropdown-item" href="#Materas">Materas</a>
+                  <a class="dropdown-item" href="#Bombillas">Bombillas</a>
+                </div>
+              </div>
+              
+              
               <li class="nav-item">
                 <a class="nav-link" href="#Personalizados">Personalizados</a>
               </li>
@@ -50,13 +53,14 @@
                 <a class="nav-link" href="#Regalos">Regalos empresariales</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Mayoristas">Mayoristas</a>
+                <a class="nav-link" href="#Mayorista">Mayorista</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Tips">Tips </a>
               </li>
+            
               <li class="nav-item">
-                <a class="nav-link" href="#Nosotros">Nosotros</a>
+                <a class="nav-link" href="#Contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -66,8 +70,8 @@
     </nav>
   </div>
 
-    <!--ENCABEZADO-->
-    <header>  
+        <!------------------------------------Encabezado--------------------------------------------->
+        <header>  
      <div class="estrifo-arg">
   <span>ESTRIBO ARGENTINO</span>
 </div>
@@ -80,36 +84,40 @@
         
         <h3 id="Mates">Mates</h3>
         <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4  g-4">
-            <div class="col">
-              <div class="card h-100 text-center">
-                <img src="./Images/imperial.png" class="card-img-top" alt="...">
+            <div class="col"> 
+              
+              <div class="card h-100 text-center" height="200px" length="200px">
+                <img src="./Images/imperial.png" class="card-img-top" alt="..." >
                 <div class="card-body">
                   <h5 class="card-title">MATE IMPERIAL</h5>
                   <p class="card-text">$ 8.500</p>
+
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100 text-center">
-                <img  src="./Images/cam_marron.png" class="card-img-top" alt="...">
+                <img  src="./Images/cam_marron.png" class="card-img-top" alt="..." height="380px">
                 <div class="card-body">
-                    <h5 class="card-title">Mate camionero marrón</h5>
+                    <h5 class="card-title">Mate camionero marrón oscuro</h5>
                     <p class="card-text">$5.200</p>
+
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100 text-center">
-                <img src="./Images/torpedo.png" class="card-img-top" alt="...">
+                <img src="./Images/torpedo.png" class="card-img-top" alt="..." height="380px">
                 <div class="card-body">
                     <h5 class="card-title">Mate torpedo marrón</h5>
                     <p class="card-text">$5.200</p>
                 </div>
               </div>
             </div>
+            
             <div class="col">
                 <div class="card h-100 text-center">
-                  <img src="./Images/trenzado.png" class="card-img-top" alt="...">
+                  <img src="./Images/trenzado.png" class="card-img-top" alt="..." height="380px">
                   <div class="card-body">
                       <h5 class="card-title">Mate trenzado claro</h5>
                       <p class="card-text">$5.200</p>
@@ -117,8 +125,40 @@
                 </div>
                 
             </div>
-          
         </div>
+        <br>
+        <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4  g-4">
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./Images/mateecocuero.png" class="card-img-top" alt="..." height="380px">
+              <div class="card-body">
+                <h5 class="card-title">Mate ecocuero</h5>
+                <p class="card-text">$ 8.500</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img  src="./Images/camionero_criollo.png" class="card-img-top" alt="..." height="380px">
+              <div class="card-body">
+                  <h5 class="card-title">Mate camionero criollo</h5>
+                  <p class="card-text">$5.200</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./Images/camioneromarroncla.png" class="card-img-top" alt="..." height="380px">
+              <div class="card-body">
+                  <h5 class="card-title">Mate camionero marrón oscuro</h5>
+                  <p class="card-text">$5.200</p>
+              </div>
+            </div>
+          </div>
+        
+      </div>
 
         <!-----------------------------------------------Yerberas------------------------------------------->
   
@@ -145,7 +185,7 @@
             </div>
             <div class="col">
               <div class="card h-100 text-center">
-                <img src="./Images/Yerberanegra .jpg" class="card-img-top" alt="..." height="380px">
+                <img src="./Images/yerberanegra.png" class="card-img-top" alt="..." height="380px">
                 <div class="card-body">
                     <h5 class="card-title">Yerbera negra</h5>
                     <p class="card-text">$1.900</p>
@@ -171,7 +211,7 @@
               <div class="card h-100 text-center">   
                 <img  src="./Images/materamarron.jpeg" class="card-img-top" alt="..." height="400px">
                 <div class="card-body">
-                    <h5 class="card-title">Matera marrón</h5>
+                    <h5 class="card-title">Matera marrón y verde</h5>
                     <p class="card-text">$6.000</p>
                 </div>
               </div>
@@ -226,23 +266,64 @@
 
          <h3 id="Personalizados">Personalizados</h3>
             
-         <div class="row text-center">
+         <div class="row text-center" style="text-align: center;">
              <div class="col-4">
-                 <img class="imagen" src="./Images/transferencia.webp" alt=".">
                  <h4> $700</h4>
                  <p>precio de 1 grabado a elección en tu mate</p>
              </div>
  
              <div class="col-4">
-                 <img class="imagen" src="./Images/efectivo.png"class="img-fluid" alt=".">
                  <h4> $900</h4>
                  <p>precio de 2 grabados a elección en tu mate</p>
              </div>
           </div>
+        <!---------------------------------------------- Regalos empresariales---------------------------------------->
+
+        <h3 id="Regalos">Regalos empresariales</h3>
+        <div style="text-align: center;">
+          <p>Envianos tu mensaje para consultar por los kit materos con el logo de tu empresa, negocio o emprendimiento.</p>
+          <p>Esto puede incluir tu logo en mates, bombillas y bolsas.</p>
+        </div>
+        
+  
+        <div class="row text-center">
+            <div class="col-4">
+                <img class="imagen" src="./Images/transferencia.webp" alt=".">
+                <h4> $700</h4>
+                <p>precio de 1 grabado a elección en tu mate</p>
+            </div>
+
+            <div class="col-4">
+                <img class="imagen" src="./Images/efectivo.png"class="img-fluid" alt=".">
+                <h4> $900</h4>
+                <p>precio de 2 grabados a elección en tu mate</p>
+            </div>
+         </div>
+
+       <!---------------------------------------------- Mayorista---------------------------------------->
+
+       <h3 id="Mayorista">Mayorista</h3>
+       <div style="text-align: center;">
+         <p>Consultanos para saber más sobre nuestras ventas la por mayor.</p>
+       </div>
+       
+ 
+       <div class="row text-center">
+           <div class="col-4">
+               <img class="imagen" src="./Images/transferencia.webp" alt=".">
+               <h4> $700</h4>
+               <p>precio de 1 grabado a elección en tu mate</p>
+           </div>
+
+           <div class="col-4">
+               <img class="imagen" src="./Images/efectivo.png"class="img-fluid" alt=".">
+               <h4> $900</h4>
+               <p>precio de 2 grabados a elección en tu mate</p>
+           </div>
+        </div>
 
  
         <!---------------------------------------------- Métodos de pago---------------------------------------->
-        <hr>
         <h3>Métodos de pago</h3>
             
         <div class="row text-center">
@@ -264,8 +345,6 @@
                 <p> Para todo tipo de compra </p>
             </div>
         </div>
-       
-      
 
         <!--------------------------------Tips---------------------------------------------->
         <h3 id="Tips"> Tips</h3>
@@ -277,7 +356,7 @@
               </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">1. Colocar yerba usada dentro de la calabaza 
+              <div class="accordion-body"> 1. Colocar yerba usada dentro de la calabaza 
                                         <br> 2. Dejar reposar durante 12 horas 
                                         <br> 3. Retirar la yerba y raspar la calabaza para quitar el hollejo
                                         <br> 4. Repetir el proceso 2 veces más
@@ -287,10 +366,19 @@
         </div>
     <!--------------------------------Nosotros---------------------------------------------->
  
-    <h3 id="Nosotros">Nosotros</h3>
+    <h3 id="Contacto">Contacto</h3>
             
     <div class="row text-center">
-        <div class="col-4">     <!--------agregar ref a red de insta-------->
+        <div class="col-4">    
+          <a  href="https://instagram.com/estriboargentino?igshid=YmMyMTA2M2Y=">
+            <img class ="imagen" src="./Images/logoig.png" alt="Logo de Instagram">
+          </a>
+
+            <h4> Instagram</h4>
+            <p>clickeá para conocer nuestra cuenta!</p>
+        </div>
+
+        <div class="col-4">        <!-------------agregar cuadro de mensaje para enviar, con otro cuadro de motivo (opciones reducidas)------------------->
           <a  href="https://instagram.com/estriboargentino?igshid=YmMyMTA2M2Y=">
             <img class ="imagen" src="./Images/logoig.png" alt="Logo de Instagram">
           </a>
