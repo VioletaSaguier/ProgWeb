@@ -18,14 +18,14 @@ function sumaProductos(ValorItem, Producto) {
   
 
 function Limpiar() {
-    Total=0
+  Carrito.valorTotal=0
     document.getElementById("elTotal").innerHTML = "TOTAL: " + "$" + 0; }
 
     function actualizarCarritoUI() {
         var carritoElemento = document.getElementById("elTotal");
       
         // Actualiza el monto total del carrito
-        carritoElemento.innerHTML = "Monto total: " + Carrito.valorTotal + " Pesos";
+        carritoElemento.innerHTML = "Monto total: " + Carrito.valorTotal;
       
         // Aquí puedes agregar código para listar los productos en el carrito si lo deseas
       }
