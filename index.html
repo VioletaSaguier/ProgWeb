@@ -3,49 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .item {
-      flex: 1;
-      min-width: 50%;
-      box-sizing: border-box;
-      padding: 10px;
-    }
-
-    @media screen and (min-width: 768px) {
-      .item {
-        min-width: 25%;
-      }
-    }
- 
-    .container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-        }
-
-        .container div {
-            flex: 1;
-            margin: 19px;
-        }
-
-        .container img {
-            width: 260px;
-            height: 260px;
-            object-fit: cover;
-        }
-   
-        .centered-italic {
-        font-size: 8px;
-        text-align: center;
-        font-style: italic;
-        }
-
-  </style>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,7 +27,7 @@
   <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#">ESTRIBO ARGENTINO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -504,24 +461,26 @@
                 <h5 class="offcanvas-title" id="offcanvasRightLabel"> Carrito</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-                <!-- La lista de los libros que se van a comprar -->
-                <div class="list-group w-auto">
-                    <a  class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                        <div class="d-flex gap-2 w-100 justify-content-between">
-                          <div class="d-grid gap-2 col-6 mx-auto " >
-                            <button type="button" disabled class="Boton">
-                              <div id="elTotal">  Monto total: 0 Pesos</div>
-                            </button>
-                            <button type="button"  class="btn btn-danger" onclick="Limpiar()"> Vaciar Carrito </button>
-                            <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="Limpiar()">Comprar</button>
-                          
-                          </div>
-                        </div>
-    
-                    </a>    
+           <div class="offcanvas-body">
+            <!-- La lista de los productos que se van a comprar -->
+            <div class="list-group w-auto">
+            </div>
+            <a  class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div id="listaProductos" class="list-group w-auto">
                   </div>
-              </div>
-          </div>
+                  
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" disabled class="Boton">
+                            <div id="elTotal">  Monto total: 0 Pesos</div>
+                        </button>
+                        <button type="button"  class="btn btn-danger" onclick="Limpiar()"> Vaciar Carrito </button>
+                        <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="Limpiar()">Comprar</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+        </div>
+        
 </body>
 </html>
