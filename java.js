@@ -37,5 +37,5 @@ function actualizarCarritoUI() {
       listaProductosDiv.appendChild(productoDiv);
   });
 
-  document.getElementById('elTotal').innerText = `Monto total: ${Carrito.valorTotal} Pesos`;
+  document.getElementById('elTotal').innerText = `Monto total: $${Carrito.valorTotal} Pesos`;
 }
